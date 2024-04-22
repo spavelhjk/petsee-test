@@ -2,6 +2,7 @@
   "expo": {
     "name": "petsee",
     "slug": "petsee",
+    "scheme": "petsee",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,13 +16,15 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.spavelhjk.petsee"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.spavelhjk.petsee"
     },
     "web": {
       "favicon": "./assets/favicon.png"
